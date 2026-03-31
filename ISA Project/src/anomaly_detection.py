@@ -27,8 +27,6 @@ def predict_score(model, sensor_row: np.ndarray, feature_names: list = None) -> 
     """
     row = sensor_row.reshape(1, -1)
     
-    # FIX: wrap in DataFrame with column names so sklearn doesn't warn
-    # about feature name mismatch (model was fitted on a named DataFrame)
     if feature_names is not None:
         row = pd.DataFrame(row, columns=feature_names)
     
