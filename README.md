@@ -57,12 +57,11 @@ Training vs Validation Loss curves
 RUL prediction plots
 EDA visualizations for sensor behavior
 
-👉 Where to include in report:
+👉 Suggested placement in report:
 
 EDA graphs → Dataset Description / EDA section
 Loss curves → Model Training section
 Predictions & evaluation → Results and Discussion section
-
 🧠 Key Learnings
 Time-series modeling is essential for degradation prediction
 Dataset complexity significantly impacts model performance
