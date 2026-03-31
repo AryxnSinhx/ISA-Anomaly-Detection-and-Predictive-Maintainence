@@ -62,24 +62,7 @@ EDA visualizations for sensor behavior
 EDA graphs → Dataset Description / EDA section
 Loss curves → Model Training section
 Predictions & evaluation → Results and Discussion section
-🚀 How to Run
-# Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
 
-# Navigate to project folder
-cd your-repo-name
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run training pipeline
-python train.py
-
-# Run evaluation
-python test_pipeline.py
-
-# Launch dashboard
-streamlit run app.py
 🧠 Key Learnings
 Time-series modeling is essential for degradation prediction
 Dataset complexity significantly impacts model performance
