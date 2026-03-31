@@ -1,1 +1,10 @@
-
+pandas
+numpy
+scikit-learn
+tensorflow
+streamlit
+plotly
+joblib
+os
+glob
+matplotlib
