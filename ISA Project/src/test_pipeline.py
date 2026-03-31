@@ -46,9 +46,6 @@ def load_dataset(file_path: Path) -> pd.DataFrame:
 
 # -------------------------------
 # Build one sequence per engine
-# (last SEQ_LENGTH cycles, zero-padded if shorter)
-# Feature order MUST match sequence_generator.py exactly:
-#   cycle → op_settings → sensors → health_index
 # -------------------------------
 def create_test_sequences(df: pd.DataFrame, window: int = SEQ_LENGTH):
     feature_cols = (
